@@ -7,6 +7,5 @@
 ### 与type\_id的区别：
 - 本反射机制通过模板，可以在编译期判断出模板参数类型，将结果记载到枚举值。而type\_id为关键字，对无虚函数的类型可在编译期返回一个type\_info引用，并使用name()方法得到C-style字符串。
 - 本反射机制可通过模板递归实例化得到组合类型的直接类型和原始类型，如果为类的成员指针，还可以得到类类型。得到的类型可以被用于后续程序。而type\_id无法使用得到的类型。
-### 效果演示
-具体类型或对象 : 归类类型
+### 效果演示(具体类型或对象 : 归类类型)
 ![image](https://github.com/castleKaoCK/Simple-Type-Reflection-Framework/raw/master/picture_.png)
